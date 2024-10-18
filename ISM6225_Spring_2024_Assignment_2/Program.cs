@@ -91,7 +91,7 @@ for (int i = 0; i < nums.Length; i++)
     }
 }
         return result;
-                return new List<int>(); // Placeholder
+                
             }
             catch (Exception)
             {
@@ -164,7 +164,7 @@ for (int i = 0; i < nums.Length; i++)
 
             // If no solution is found, return an empty array
             return new int[0];
-                return new int[0]; // Placeholder
+                
             }
             catch (Exception)
             {
@@ -189,7 +189,7 @@ for (int i = 0; i < nums.Length; i++)
 
             // Return the maximum of the two products
             return Math.Max(maxProduct1, maxProduct2);
-                return 0; // Placeholder
+                
             }
             catch (Exception)
             {
